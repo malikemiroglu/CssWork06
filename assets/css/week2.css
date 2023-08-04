@@ -1,0 +1,247 @@
+body {
+	font-family: Montserrat, Arial;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #3f3b3b;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container {
+	width: 1110px;
+	/* sayfada ortalamak icin */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.main {
+	background-image: url(../img/hero/big-fat-juicy-cheese-burger-recipes.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.header {
+	width: 1110px;
+	margin: 0 auto;
+	font-size: 24px;
+	display: flex;
+	gap: 40px; /* ikonlarin arasinda bosluk birakmak icin */
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header a {
+	color: #3f3b3b;
+}
+
+
+
+.logo {
+	flex-grow: 1;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.hero {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	height: 936px;
+	color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero h2 {
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 1.01;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.button {
+	color: #fff;
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 1.39;
+	background-color: #fb5858;
+	padding: 16px 55px;
+	border-radius: 6px;
+	display: inline-block; /* elementler arasi bosluk sorunlarini cozmek icin kullaniyoruz */
+}
+
+
+
+
+
+
+
+.promo {
+	padding: 100px 0; /* ikili yazildiginda soldaki deger ust ve alt, sagdaki deger sol ve sag */
+	display: flex;
+}
+
+.promo-content {
+	padding-top: 120px;
+}
+
+.promo-content h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	margin-bottom: 12px;
+}
+
+.promo-content h6 i {
+	color: #ff9138;
+	padding-right: 8px;
+}
+
+.promo-content h3 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1.17;
+	letter-spacing: -0.7px;
+	margin-bottom: 24px;
+}
+
+.promo-image img {
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+.recipes h3{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: -0.4px;
+	margin-bottom: 48px;
+}
+
+.recipes p{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	padding-bottom: 60px;
+}
+
+.recipes img{
+	width: 350px;
+	height: 344px;
+	padding-bottom: 16px;
+}
+
+.recipes a{
+	margin-bottom: 120px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
+.recipes-content{
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	column-gap: 30px;
+}
+
+
+
+
+
+.newsletter {
+	background-image: url(../img/newsletter.jpg);
+	height: 453px;
+	background-position: center;
+	margin-bottom: 60px;
+	
+}
+
+.newsletter h3 {
+	color: #fff;
+	letter-spacing: -0.7px;
+	line-height: 1.17;
+	font-size: 60px;
+	font-weight: bold;
+	padding-top: 152px;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+	padding: 0 165px;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	row-gap: 200px;
+	margin-bottom: 32px;
+}
+
+.footerLogo{
+	width: 118px;
+  	height: 24px;
+}
+
+.links a{
+	text-decoration: none;
+	color: #3f3b3b;
+	width: 26px;
+	height: 24px;
+	font-size: 14px;
+	line-height: 1.71;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+
+.links{
+	width: 354px;
+	height: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+
+.footer p {
+	color: #959393;
+	width: 105px;
+  	height: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+.footer span {
+	font-family: Roboto, sans-serif;
+  	font-size: 14px;
+	color: #959393;
+}
+
+.social {
+	display: flex;
+	gap: 40px;
+	justify-content: end;
+}
+
