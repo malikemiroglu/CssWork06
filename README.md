@@ -1,6 +1,6 @@
 # Css Kullanımı Geliştirme Projesi
 
-Bu çalışmanın amacı, CSS kullanımını geliştirmek ve Figma tasarımını temel alarak bir web uygulaması oluşturmaktır.
+Bu çalışmanın amacı, CSS kullanımını geliştirmek ve Zeplin tasarımını temel alarak bir web uygulaması oluşturmaktır.
 
 ## Tasarım
 
